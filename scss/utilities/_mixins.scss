@@ -1,0 +1,9 @@
+@mixin quote {
+	font-size: 1.5em;
+	font-weight: $base-weight;
+	font-style: italic;
+	margin-left: 20px;
+	padding-left: 20px;
+	border-left: 8px solid $accent-color;
+	border-radius: 5px;
+}

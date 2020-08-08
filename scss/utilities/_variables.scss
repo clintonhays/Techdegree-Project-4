@@ -4,8 +4,8 @@
 
 $grey: #777;
 $grey-light: #ccc;
-$seafoam: #58e1c1;
 $white: #fff;
+$accent-color: #58e1c1;
 $default-color: #51ddfc; // light blue
 $error-color: #e4757a; // dark red
 $info-color: #927bc1; // purple
@@ -17,6 +17,8 @@ $warning-color: #fd7856; //orange
 /* ============================================= */
 
 $sans-serif: 'Lato', sans-serif;
+$base-weight: 300;
+$bold-weight: 700;
 
 /* ============================================= */
 /*               Media Queries                   */
