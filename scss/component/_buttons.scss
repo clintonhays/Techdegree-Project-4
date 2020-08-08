@@ -3,31 +3,22 @@
 /* ============================================= */
 
 .btn {
-	margin-top: 15px;
-	width: 100%;
-	color: #fff;
-	border: none;
-	padding: 10px 0;
-	text-transform: uppercase;
-	border-radius: 5px;
+	@include btn-style;
 }
 
-.default {
-	background-color: #51ddfc;
-}
+$buttons: (
+	default: $default-color,
+	error: $error-color,
+	info: $info-color,
+	success: $success-color,
+	warning: $warning-color
+);
 
-.error {
-	background-color: #e4757a;
-}
-
-.info {
-	background-color: #927bc1;
-}
-
-.success {
-	background-color: #63cc82;
-}
-
-.warning {
-	background-color: #fd7856;
+@each $btn, $color in $buttons {
+	.#{$btn} {
+		background-color: #{$color};
+		&:hover {
+			background-color: lighten(#{$color}, 30%);
+		}
+	}
 }

@@ -7,3 +7,13 @@
 	border-left: 8px solid $accent-color;
 	border-radius: 5px;
 }
+
+@mixin btn-style {
+	margin-top: 15px;
+	width: 100%;
+	color: $white;
+	border: none;
+	padding: 10px 0;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
