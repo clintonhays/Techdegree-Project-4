@@ -1,4 +1,4 @@
-@mixin margin-auto {
+@mixin margin-auto-center {
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -51,7 +51,7 @@
 
 @mixin avatar-style {
 	display: block;
-	@include margin-auto;
+	@include margin-auto-center;
 	margin-top: 10px;
 	max-width: 100%;
 	max-height: 100%;
@@ -59,7 +59,7 @@
 
 @mixin frame-style ($width) {
 	display: block;
-	@include margin-auto;
+	@include margin-auto-center;
 	margin-top: 10px;
 	max-width: $width;
 	padding: 13px;
