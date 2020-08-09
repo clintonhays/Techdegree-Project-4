@@ -18,7 +18,7 @@ $buttons: (
 	.#{$btn} {
 		background-color: #{$color};
 		&:hover {
-			background-color: lighten(#{$color}, 30%);
+			background-color: lighten($color, 10%);
 		}
 	}
 }
