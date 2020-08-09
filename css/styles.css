@@ -472,7 +472,7 @@ a {
   border-bottom: 5px solid #58e1c1;
 }
 
-.hidden {
+.sr-only {
   position: absolute;
   left: -10000px;
   top: auto;
@@ -503,51 +503,51 @@ a {
 }
 
 .theme.col-1 {
-  background-color: #927bc1;
+  background-color: #5951fc;
 }
 
 .theme.col-2 {
-  background-color: #fd7856;
+  background-color: #ed51fc;
 }
 
 .theme.col-3 {
-  background-color: #deb2ee;
+  background-color: #fc5176;
 }
 
 .theme.col-4 {
-  background-color: #7ee6fd;
+  background-color: #fcc051;
 }
 
 .theme.col-5 {
-  background-color: #88d9a0;
+  background-color: #a4fc51;
 }
 
 .theme.col-6 {
-  background-color: #4da2bb;
+  background-color: #51fc92;
 }
 
 .theme.col-7 {
-  background-color: #ec9fa3;
+  background-color: #51d2fc;
 }
 
 .theme.col-8 {
-  background-color: #fd9f85;
+  background-color: #6551fc;
 }
 
 .theme.col-9 {
-  background-color: #e4757a;
+  background-color: #f951fc;
 }
 
 .theme.col-10 {
-  background-color: #63cc82;
+  background-color: #fc516b;
 }
 
 .theme.col-11 {
-  background-color: #51ddfc;
+  background-color: #fccb51;
 }
 
 .theme.col-12 {
-  background-color: #80e8d1;
+  background-color: #99fc51;
 }
 
 .card {
